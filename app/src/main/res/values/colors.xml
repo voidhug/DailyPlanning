@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title">#5b4120</color>
+    <color name="purple">#CC3366</color>
+    <color name="blue">#333399</color>
+    <color name="text">#595959</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFF8DC</color>
+    <color name="search_hint">#ffcccccc</color>
+
+
+</resources>
