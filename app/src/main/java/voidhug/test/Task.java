@@ -156,6 +156,14 @@ public class Task extends ActionBarActivity {
                 Fragment list_3 = new List_2();
                 fragmentManager.beginTransaction().replace(R.id.content_frame, list_3).commit();
                 break;
+            case 4:
+                Fragment list_4 = new List_4();
+                fragmentManager.beginTransaction().replace(R.id.content_frame, list_4).commit();
+                break;
+            case 5:
+                Fragment list_5 = new List_5();
+                fragmentManager.beginTransaction().replace(R.id.content_frame, list_5).commit();
+                break;
             default:
                 break;
         }

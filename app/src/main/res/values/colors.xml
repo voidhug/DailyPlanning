@@ -8,6 +8,13 @@
     <color name="black">#000000</color>
     <color name="white">#FFF8DC</color>
     <color name="search_hint">#ffcccccc</color>
+    <color name="theme_bg_color">#f0f2f5</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="base_color_text_gray">#9fa0a0</color>
+    <color name="color_theme">#489cfa</color>
+
 
 
 </resources>

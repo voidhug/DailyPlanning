@@ -12,6 +12,8 @@
         <item>驻足</item>
         <item>随想</item>
         <item>课程表</item>
+        <item>注册</item>
+        <item>登陆</item>
     </string-array>
     <string name="welcome">欢迎使用本软件!</string>
     <!--对话框-->
@@ -35,6 +37,28 @@
     <string name="date">日期:</string>
     <string name="button3">选择日期</string>
 
-    <!--随想-->
-    <string name="heart_list_view_empty">开始记录您的随想吧 :)</string>
+    <!--List_1-->
+    <string name="choose">选择日期</string>
+
+    <!--注册&登陆-->
+    <string name="login_account">账号 </string>
+    <string name="login_username_hint">请输入用户名&#8230;</string>
+    <string name="login_password_hint">请输入密码&#8230;</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="login_pwd">密码 </string>
+    <string name="login_email">确认密码 </string>
+    <string name="login_email_hint">请在此输入密码&#8230;</string>
+    <string name="network_tips">当前网络不可用,请检查您的网络!</string>
+    <string name="toast_error_password_null">密码不能为空</string>
+    <string name="toast_error_username_null">用户名不能为空</string>
+    <string name="toast_error_comfirm_password">输入的两次密码不一致</string>
+    <string name="toast_simple_password_null">密码过于简单</string>
+    <string name="toast_register_success">注册成功</string>
+    <string name="toast_register_failure">注册失败</string>
+    <string name="register_txt1">还没有账号？</string>
+    <string name="register_txt2">立即注册 ></string>
+    <string name="login_success">登陆成功</string>
+    <string name="login_failure">登陆失败</string>
+
 </resources>

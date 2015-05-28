@@ -20,9 +20,6 @@ public class WeekDayFragment extends Fragment {
     private int weekday = -1;
     private DBUtil dbUtil;
 
-    public WeekDayFragment(int weekday) {
-        this.weekday = weekday;
-    }
 
     private TextView tv_weekday,
             tv_classname_0,tv_classname_1,tv_classname_3,tv_classname_5,tv_classname_7,
@@ -31,6 +28,7 @@ public class WeekDayFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+        weekday = getArguments().getInt("1");
         return inflater.inflate(R.layout.app_schedule_show_page, container, false);
     }
 

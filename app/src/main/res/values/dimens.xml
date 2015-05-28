@@ -4,6 +4,9 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="task_item_name_width">235dp</dimen>
     <dimen name="class_text_size">30dip</dimen>
+    <dimen name="base_action_bar_height">48.0dip</dimen>
+    <dimen name="register_margin">10.0dp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
 
 
 </resources>

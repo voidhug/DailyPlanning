@@ -111,11 +111,41 @@ public class ScheduleShow extends FragmentActivity implements View.OnClickListen
     private void initViewPager() {
         mPager = (ViewPager) findViewById(R.id.vPager);
         ArrayList<Fragment> fragmentsList = new ArrayList<Fragment>();
-        fragmentsList.add(new WeekDayFragment(0));
-        fragmentsList.add(new WeekDayFragment(1));
-        fragmentsList.add(new WeekDayFragment(2));
-        fragmentsList.add(new WeekDayFragment(3));
-        fragmentsList.add(new WeekDayFragment(4));
+
+        WeekDayFragment weekDayFragment0 = new WeekDayFragment();
+        Bundle args = new Bundle();
+        args.putInt("1", 0);
+        weekDayFragment0.setArguments(args);
+        fragmentsList.add(weekDayFragment0);
+
+        WeekDayFragment weekDayFragment1 = new WeekDayFragment();
+        Bundle args1 = new Bundle();
+        args1.putInt("1", 1);
+        weekDayFragment1.setArguments(args1);
+        fragmentsList.add(weekDayFragment1);
+
+
+        WeekDayFragment weekDayFragment2 = new WeekDayFragment();
+        Bundle args2 = new Bundle();
+        args2.putInt("1", 2);
+        weekDayFragment2.setArguments(args2);
+        fragmentsList.add(weekDayFragment2);
+
+
+        WeekDayFragment weekDayFragment3 = new WeekDayFragment();
+        Bundle args3 = new Bundle();
+        args3.putInt("1", 3);
+        weekDayFragment3.setArguments(args3);
+        fragmentsList.add(weekDayFragment3);
+
+
+        WeekDayFragment weekDayFragment4 = new WeekDayFragment();
+        Bundle args4 = new Bundle();
+        args4.putInt("1", 4);
+        weekDayFragment4.setArguments(args4);
+        fragmentsList.add(weekDayFragment4);
+
+
 
         mPager.setAdapter(new MyFragmentPagerAdapter(getSupportFragmentManager(), fragmentsList));
         mPager.setOnPageChangeListener(new MyOnPageChangeListener());
